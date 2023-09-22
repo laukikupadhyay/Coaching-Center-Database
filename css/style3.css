@@ -1,0 +1,118 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.logo {
+	box-shadow: 3px 3px 12px rgb(228, 107, 14);
+	border: 3px solid orange;
+	margin-left: 10px;
+	border-radius: 10px;
+	width: 75px;
+	height: 70px;
+	cursor: pointer;
+}
+
+.nav_bar {
+	width: 100%;
+	border-radius: 0px;
+	background-color: rgb(48, 83, 3);
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	height: 85px;
+}
+
+#nav_bar {
+	font-family: sans-serif;
+	font-size: 20px;
+	margin-left: 20px;
+	display: flex;
+	list-style: none;
+}
+
+.social_media {
+	margin-left: 5px;
+}
+
+.social_media a {
+	margin: 20px;
+}
+
+.social_media a i {
+	line-height: 100px;
+}
+
+.fa-facebook {
+	color: rgb(9, 121, 225);
+}
+
+.fa-facebook:hover {
+	transition: 0.1s;
+	font-size: 40px;
+	color: rgba(222, 227, 235, 0.96);
+}
+
+.fa-instagram {
+	color: rgba(213, 72, 149, 0.823);
+}
+
+#instagram:hover {
+	transition: 0.1s;
+	font-size: 40px;
+	color: rgb(240, 8, 232);
+}
+
+.fa-youtube {
+	color: rgba(255, 4, 4, 0.83);
+}
+
+.fa-youtube:hover {
+	transition: 0.1s;
+	font-size: 40px;
+	color: rgba(222, 227, 235, 0.96);
+	text-shadow: 1px 1px 10px red;
+}
+
+.fa-twitter {
+	color: rgba(4, 104, 255, 0.83);
+}
+
+.fa-twitter:hover {
+	transition: 0.1s;
+	font-size: 40px;
+	color: rgba(18, 185, 214, 0.96);
+	text-shadow: 1px 1px 10px red;
+}
+
+.fa-google {
+	color: rgba(232, 237, 243, 0.83);
+}
+
+.fa-google:hover {
+	transition: 0.1s;
+	font-size: 40px;
+	color: rgba(236, 232, 228, 0.96);
+	text-shadow: 1px 1px 10px rgb(218, 116, 22);
+}
+
+#li_5 {
+	margin-left: 750px;
+}
+
+li {
+	color: lavender;
+	margin: 30px;
+	margin-bottom: 9.5px;
+	font-size: 25px;
+	margin-right: 0.2px;
+	cursor: pointer;
+}
+
+li:hover {
+	color: orange;
+	transition: 0.2s;
+}
